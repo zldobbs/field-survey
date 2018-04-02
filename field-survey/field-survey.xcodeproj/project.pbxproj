@@ -11,6 +11,7 @@
 		E4DA5F0C20729BE000D54DA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4DA5F0A20729BE000D54DA2 /* Main.storyboard */; };
 		E4DA5F0E20729BE100D54DA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4DA5F0D20729BE100D54DA2 /* Assets.xcassets */; };
 		E4DA5F1120729BE100D54DA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4DA5F0F20729BE100D54DA2 /* LaunchScreen.storyboard */; };
+		E4DA5F1A2072EA0D00D54DA2 /* field_observations.json in Resources */ = {isa = PBXBuildFile; fileRef = E4DA5F192072EA0D00D54DA2 /* field_observations.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		E4DA5F0D20729BE100D54DA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4DA5F1020729BE100D54DA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E4DA5F1220729BE100D54DA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4DA5F192072EA0D00D54DA2 /* field_observations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = field_observations.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		E4DA5F0520729BE000D54DA2 /* field-survey */ = {
 			isa = PBXGroup;
 			children = (
+				E4DA5F182072E9A000D54DA2 /* Model */,
 				E4DA5F0620729BE000D54DA2 /* AppDelegate.swift */,
 				E4DA5F0A20729BE000D54DA2 /* Main.storyboard */,
 				E4DA5F0D20729BE100D54DA2 /* Assets.xcassets */,
@@ -59,6 +62,14 @@
 				E4DA5F1220729BE100D54DA2 /* Info.plist */,
 			);
 			path = "field-survey";
+			sourceTree = "<group>";
+		};
+		E4DA5F182072E9A000D54DA2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E4DA5F192072EA0D00D54DA2 /* field_observations.json */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4DA5F1120729BE100D54DA2 /* LaunchScreen.storyboard in Resources */,
+				E4DA5F1A2072EA0D00D54DA2 /* field_observations.json in Resources */,
 				E4DA5F0E20729BE100D54DA2 /* Assets.xcassets in Resources */,
 				E4DA5F0C20729BE000D54DA2 /* Main.storyboard in Resources */,
 			);
