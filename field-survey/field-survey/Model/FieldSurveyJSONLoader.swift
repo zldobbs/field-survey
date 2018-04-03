@@ -8,6 +8,7 @@
 
 import Foundation
 
+// JSON loader will call take a path and call the parser to create the array of structs
 class FieldSurveyJSONLoader {
     class func load(fileName: String) -> [Observation] {
         var fieldObservations = [Observation]()
@@ -16,6 +17,7 @@ class FieldSurveyJSONLoader {
         if let path = Bundle.main.path(forResource: fileName, ofType: "json"),
             let data = try? Data(contentsOf: URL(fileURLWithPath: path))
         {
+            // the JSONParser does not return optionals, so result will either be empty or populated, NOT nil
             fieldObservations = FieldSurveyJSONParser.parse(data)
         }
         
