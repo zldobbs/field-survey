@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E402C033207568BD00B797D7 /* FieldObservationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E402C032207568BD00B797D7 /* FieldObservationsViewController.swift */; };
+		E402C035207568EB00B797D7 /* FieldObservationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E402C034207568EB00B797D7 /* FieldObservationDetailViewController.swift */; };
+		E402C0372075748C00B797D7 /* FieldSurveyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E402C0362075748C00B797D7 /* FieldSurveyTableViewCell.swift */; };
 		E4DA5F0720729BE000D54DA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DA5F0620729BE000D54DA2 /* AppDelegate.swift */; };
 		E4DA5F0C20729BE000D54DA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4DA5F0A20729BE000D54DA2 /* Main.storyboard */; };
 		E4DA5F0E20729BE100D54DA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4DA5F0D20729BE100D54DA2 /* Assets.xcassets */; };
@@ -19,6 +22,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E402C032207568BD00B797D7 /* FieldObservationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldObservationsViewController.swift; sourceTree = "<group>"; };
+		E402C034207568EB00B797D7 /* FieldObservationDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldObservationDetailViewController.swift; sourceTree = "<group>"; };
+		E402C0362075748C00B797D7 /* FieldSurveyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldSurveyTableViewCell.swift; sourceTree = "<group>"; };
 		E4DA5F0320729BE000D54DA2 /* field-survey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "field-survey.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4DA5F0620729BE000D54DA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4DA5F0B20729BE000D54DA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -68,6 +74,9 @@
 				E4DA5F0D20729BE100D54DA2 /* Assets.xcassets */,
 				E4DA5F0F20729BE100D54DA2 /* LaunchScreen.storyboard */,
 				E4DA5F1220729BE100D54DA2 /* Info.plist */,
+				E402C032207568BD00B797D7 /* FieldObservationsViewController.swift */,
+				E402C034207568EB00B797D7 /* FieldObservationDetailViewController.swift */,
+				E402C0362075748C00B797D7 /* FieldSurveyTableViewCell.swift */,
 			);
 			path = "field-survey";
 			sourceTree = "<group>";
@@ -158,8 +167,11 @@
 			files = (
 				E4DA5F0720729BE000D54DA2 /* AppDelegate.swift in Sources */,
 				E4DA5F1E2072F8A700D54DA2 /* Observation.swift in Sources */,
+				E402C033207568BD00B797D7 /* FieldObservationsViewController.swift in Sources */,
 				E4DA5F1C2072ED9D00D54DA2 /* Classification.swift in Sources */,
+				E402C035207568EB00B797D7 /* FieldObservationDetailViewController.swift in Sources */,
 				E4DA5F222073210000D54DA2 /* FieldSurveyJSONLoader.swift in Sources */,
+				E402C0372075748C00B797D7 /* FieldSurveyTableViewCell.swift in Sources */,
 				E4DA5F2020731B6C00D54DA2 /* FieldSurveyJSONParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
